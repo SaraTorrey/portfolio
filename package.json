@@ -4,9 +4,12 @@
   "description": "portfolio of my projects ",
   "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
-    "node": "^12.5.0"
+    "mongoose": "^5.7.5",
+    "node": "^12.12.0",
+    "router": "^1.3.3"
   },
   "devDependencies": {},
   "scripts": {

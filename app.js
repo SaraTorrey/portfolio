@@ -1,15 +1,31 @@
-let express = require( "express" );
-let app = express();
+const   express         = require("express"),
+        app             = express(),
+        bodyParser      = require("body-parser"),
+        mongoose        = require("mongoose");
 
-app.set( "view engine", "ejs" );
+//const indexRoutes     = require("./routes/index");
 
-app.get( "/", function ( req, res ) {
+mongoose.connect("mongodb://localhost:27017/restful_portfolio", {
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    }).then(() => {
+    console.log("Connected to DB");
+    }).catch(err => {
+    console.log("Error", err.message);
+    });
+
+app.use(bodyParser.urlencoded({extended: true}));
+app.set("view engine", "ejs");
+app.use(express.static("public"));
+
+app.get("/", (req, res) => {
     res.render("landing");
-} );
+});
 
+app.get("/about", (req,res) => {
+    res.render("about");
+});
 
-
-
-/*app.listen(3000, process.env.IP, function (  ) {
+app.listen(3000, process.env.IP, function (  ) {
     console.log("Portfolio has started")
 });
