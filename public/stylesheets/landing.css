@@ -1,10 +1,11 @@
 body {
     background-color: darkgrey;
-    background-image: url("https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    background-image: url("https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
+    background-size: cover;
     text-align: center;
     position: relative;
     padding-top: 40vh;
     font-family: 'Dosis', sans-serif;
-    color: dimgrey;
+    color: #484848;
 }
 

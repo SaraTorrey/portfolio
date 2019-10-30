@@ -1,0 +1,19 @@
+body {
+    margin-top: 8em;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    opacity: 0.8;
+    height: 100%;
+    Width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
+}
+
+img {
+    width: 37em;
+}
+
+.form {
+    margin-left: 12em;
+    margin-right: 12em;
+}

@@ -26,6 +26,18 @@ app.get("/about", (req,res) => {
     res.render("about");
 });
 
+app.get("/contact", (req, res)=>{
+    res.render("contact");
+});
+
+app.get("/portfolio", (req, res)=>{
+    res.render("portfolio");
+});
+
+app.get("/blog", (req, res)=>{
+    res.render("blog");
+});
+
 app.listen(3000, process.env.IP, function (  ) {
     console.log("Portfolio has started")
 });
