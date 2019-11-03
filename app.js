@@ -14,9 +14,10 @@ mongoose.connect("mongodb://localhost:27017/restful_portfolio", {
     console.log("Error", err.message);
     });
 
-app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static("public"));
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(expressSanitizer());
 
 app.get("/", (req, res) => {
     res.render("landing");
