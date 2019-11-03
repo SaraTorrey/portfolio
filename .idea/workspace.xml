@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="988e7ef1-e03b-44f5-b669-6eb66b0cb0b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="988e7ef1-e03b-44f5-b669-6eb66b0cb0b4" name="Default Changelist" comment="run MongoDB" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="210">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -27,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6240">
-              <caret line="416" column="8" selection-start-line="416" selection-start-column="8" selection-end-line="416" selection-end-column="8" />
+            <state relative-caret-position="6930">
+              <caret line="483" column="8" selection-start-line="483" selection-start-column="8" selection-end-line="483" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -146,6 +141,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="720" />
     <option name="y" value="23" />
     <option name="width" value="720" />
     <option name="height" value="877" />
@@ -307,7 +303,7 @@
       <workItem from="1561721829273" duration="6204000" />
       <workItem from="1571067194221" duration="5893000" />
       <workItem from="1572298884068" duration="24916000" />
-      <workItem from="1572813761804" duration="567000" />
+      <workItem from="1572813761804" duration="885000" />
     </task>
     <task id="LOCAL-00001" summary="Create about page.&#10;Style landing page. &#10;Create landing and about routes.">
       <created>1572386610831</created>
@@ -337,14 +333,29 @@
       <option name="project" value="LOCAL" />
       <updated>1572559366613</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Install npm method-override, express-session, express-sanitizer">
+      <created>1572814521689</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572814521689</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Install npm method-override, express-session, express-sanitizer &#10;Run MongoDB">
+      <created>1572814546936</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572814546936</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37580000" />
+    <option name="totallyTimeSpent" value="37898000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="720" y="23" width="720" height="877" extended-state="0" />
+    <frame x="0" y="23" width="720" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24320458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -384,7 +395,9 @@
     <MESSAGE value="Style about page." />
     <MESSAGE value="Create contact page, portfolio page, blog page&#10;Add style for all pages &#10;Change landing page design" />
     <MESSAGE value="Finish creating content for Portfolio page.&#10;Style Contact page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish creating content for Portfolio page.&#10;Style Contact page." />
+    <MESSAGE value="Install npm method-override, express-session, express-sanitizer" />
+    <MESSAGE value="Install npm method-override, express-session, express-sanitizer &#10;Run MongoDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Install npm method-override, express-session, express-sanitizer &#10;Run MongoDB" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/routers/index.js" />
@@ -493,15 +506,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6240">
-          <caret line="416" column="8" selection-start-line="416" selection-start-column="8" selection-end-line="416" selection-end-column="8" />
+        <state relative-caret-position="6930">
+          <caret line="483" column="8" selection-start-line="483" selection-start-column="8" selection-end-line="483" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="210">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
